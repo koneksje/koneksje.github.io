@@ -1,5 +1,5 @@
 /*
- Koneksje
+ Koneksje 2017
 */
 (function(c){"function"===typeof define&&define.amd&&define.amd.jQuery?define(["jquery","koneksjeutils"],c):c(jQuery)})(function(c){(function(b,c){function a(){}var f={version:0.1,inherit:function(a,b){var f=function(){};f.prototype=b.prototype;a.prototype=new f;a.prototype.constructor=a;a.prototype._super=b},ensureArray:function(){var a=[],f=arguments.length;f>0&&(a=f>1||!b.isArray(arguments[0])?b.makeArray(arguments):arguments[0]);return a},hasPointerCapture:function(){return!!c.hasPointerCapture},
 setPointerCapture:function(a,b){if(b.pointerId&&!c.hasPointerCapture)if(a.setPointerCapture)a.setPointerCapture(b.pointerId),c.hasPointerCapture=!0;else if(a.msSetPointerCapture)a.msSetPointerCapture(b.pointerId),c.hasPointerCapture=!0},releasePointerCapture:function(a,b){b.pointerId&&c.hasPointerCapture&&(a.releasePointerCapture?a.releasePointerCapture(b.pointerId):a.msReleasePointerCapture&&a.msReleasePointerCapture(b.pointerId),delete c.hasPointerCapture)},scopedFind:function(a,f,c,d){for(var c=

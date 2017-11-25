@@ -1,9 +1,6 @@
 <?php 
 /* 	
-If you see this text in your browser, PHP is not configured correctly on this hosting provider. 
-Contact your hosting provider regarding PHP configuration for your site.
-
-Koneksje
+Koneksje 2017
 */
 
 function formthrottle_check()

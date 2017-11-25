@@ -1,9 +1,6 @@
 <?php 
 /* 	
-If you see this text in your browser, PHP is not configured correctly on this hosting provider. 
-Contact your hosting provider regarding PHP configuration for your site.
-
-Koneksje
+Koneksje 2017
 */
 
 require_once('form_throttle.php');
@@ -171,7 +168,7 @@ function email_form_submission($form) {
 function get_email_headers($to_email, $form_email) {
 	$headers = 'From: ' . $to_email . PHP_EOL;
 	$headers .= 'Reply-To: ' . $form_email . PHP_EOL;
-	$headers .= 'X-Mailer: Koneksje with PHP' . PHP_EOL;
+	$headers .= 'X-Mailer: Koneksje 2017 with PHP' . PHP_EOL;
 	$headers .= 'Content-type: text/html; charset=utf-8' . PHP_EOL;
 	
 	return $headers;
