@@ -1,6 +1,6 @@
 /*
 
- Koneksje
+Koneksje 2017
 
 */
 (function(d){"function"===typeof define&&define.amd&&define.amd.jQuery?define(["jquery"],d):d(jQuery)})(function(d){d.extend(d.fn,{watch:function(b,c,a){var f=document.createElement("div"),j=function(a,b){var a="on"+a,c=a in b;c||(b.setAttribute(a,"return;"),c=typeof b[a]=="function");"onpropertychange"==a&&d.browser.msie&&d.browser.version>=9&&(c=!1);return c};typeof c=="function"&&(a=c,c={});typeof a!="function"&&(a=function(){});c=d.extend({},{throttle:10},c);return this.each(function(){var g=
