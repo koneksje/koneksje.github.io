@@ -1,5 +1,5 @@
 /*
- Koneksje 2017
+koneksje
 */
 (function(d){"function"===typeof define&&define.amd&&define.amd.jQuery?define(["jquery","koneksjeutils"],d):d(jQuery)})(function(d){function b(a){var b=a.css("background-image");a.css("background-image","");var c=a.css("background-image");b!=c&&a.css("background-image",b);return c.replace(/^\s*url\(\"?/,"").replace(/['"]?\)$/,"")}if(!koneksje.Browser.Features.checkCSSFeature("background-size")){var c=function(a){var c=d(a),g=b(c),h=document.createElement("img"),i=document.createElement("div"),l=this,k=!1,
 m=!1,n=!0,o={};d(i).css({overflow:"hidden",position:"absolute",top:"0px",left:"0px",width:a.clientWidth+"px",height:a.clientHeight+"px",marginBottom:"-"+a.clientHeight+"px",marginRight:"-"+a.clientWidth+"px",zIndex:"-1"}).addClass("koneksjeBgSizePolyfill");h.src=g;h.alt="";h.style.position="absolute";i.appendChild(h);a.children.length>0?a.insertBefore(i,a.children[0]):a.appendChild(i);if(a===document.body)c=d("html"),a=c.get(0),g=b(c),h.src=g,c.css("background-attachment")=="fixed"?(i.style.position=
