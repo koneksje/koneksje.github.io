@@ -1,5 +1,5 @@
 /*
- Koneksje 2017
+koneksje
 */
 (function(c){"function"===typeof define&&define.amd&&define.amd.jQuery?define(["jquery"],c):c(jQuery)})(function(c){var b=c;if(typeof koneksje=="undefined")window.koneksje={};koneksje.Assert={};koneksje.Assert.fail=function(a){alert("JavaScript exception: "+a)};koneksje.Assert.assert=function(a,b){if(!a)throw Error(b);};c.extend(c.browser,{SafariMobile:navigator.userAgent.toLowerCase().match(/iP(hone|ad|od)/i)});if(!Array.indexOf)Array.prototype.indexOf=function(a){for(var b=0;b<this.length;++b)if(this[b]==a)return b;
 return-1};koneksje.Plugins={};koneksje.Utils={};koneksje.Utils.getCssVendorPrefix=function(){if(!koneksje.Utils.isDefined(koneksje.Utils.getCssVendorPrefix.flag))koneksje.Utils.getCssVendorPrefix.flag=/webkit/i.test(navigator.appVersion)?"-webkit":/firefox/i.test(navigator.userAgent)?"-moz":/trident/i.test(navigator.userAgent)?"-ms":"opera"in window?"-o":"";return koneksje.Utils.getCssVendorPrefix.flag};koneksje.Utils.marginLeftForMovingElementsOutSideViewPort="-10000px";koneksje.Utils.wrapElement=function(a,b){a.parentNode.replaceChild(b,
