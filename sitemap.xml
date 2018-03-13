@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://koneksje.pl/index.html</loc>
-    <lastmod>2017-12-03</lastmod>
+    <lastmod>2018-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -18,19 +18,46 @@
       <image:loc>http://koneksje.pl/images/effect2-crop-u2285.png</image:loc>
     </image:image>
     <image:image>
+      <image:loc>http://koneksje.pl/images/effect2-crop-u2560.png</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://koneksje.pl/images/effect2-crop-u2302.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://koneksje.pl/images/effect2-crop-u2546.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://koneksje.pl/images/effect2-crop-u2295.png</image:loc>
     </image:image>
     <image:image>
+      <image:loc>http://koneksje.pl/images/effect2-crop-u2553.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://koneksje.pl/images/effect2-crop-u2522.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://koneksje.pl/images/effect2-crop-u2524.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://koneksje.pl/images/effect2-crop-u2526.png</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://koneksje.pl/images/tekst%202.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://koneksje.pl/images/tekst%201.png</image:loc>
+      <image:loc>http://koneksje.pl/images/tekst%202_2x.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://koneksje.pl/images/tekst%201_2x.png</image:loc>
+      <image:loc>http://koneksje.pl/images/tekst%201-crop-u2312.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://koneksje.pl/images/tekst%201-crop-u2312_2x.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://koneksje.pl/images/tekst%201-crop-u2428.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://koneksje.pl/images/tekst%201-crop-u2428_2x.png</image:loc>
     </image:image>
   </url>
 </urlset>
