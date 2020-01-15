@@ -1,11 +1,1 @@
-$ dig WWW.KONEKSJE.PL +nostats +nocomments +nocmd
-  > ;WWW.KONEKSJE.PL.                     IN      A
-  > WWW.KONEKSJE.PL.              3592    IN      CNAME   KONEKSJE.github.io.
-  > KONEKSJE.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
-  >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
-
-$ dig KONEKSJE.PL +noall +answer
-> KONEKSJE.PL     3600    IN A     185.199.108.153
-> KONEKSJE.PL     3600    IN A     185.199.109.153
-> KONEKSJE.PL     3600    IN A     185.199.110.153
-> KONEKSJE.PL     3600    IN A     185.199.111.153
+koneksje.pl
